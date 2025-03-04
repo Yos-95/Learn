@@ -28,16 +28,21 @@ p {
     margin-right: 15px;
 }
 
-.channel-pic {
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+/* .channel-pic {
     display: inline-block;
     width: 50px;
     vertical-align: top;
-}
+} */
 
-.video-info {
+/* .video-info {
     display: inline-block;
     width: 200px;
-}
+} */
 
 .profile-pic {
     /* width :50px; */
@@ -57,3 +62,4 @@ p {
 .video-author {
     margin-bottom: 4px;
 }
+
